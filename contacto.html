@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogCafe</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body>
+        <header class="header">
+            <div class="contenedor">
+                <div class="barra">
+                    <a class="logo" href="index.html">
+                        <h1 class="logo__nombre no-margin centrar-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="cursos.html" class="navegacion__enlace" >Cursos</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div><!--termina barra-->
+            </div><!--termina contenedor -->
+
+        </header><!--termina header-->
+
+        <main class="contenedor">
+            <h3 class="centrar-text">Contacto</h3>
+            <div class="contacto_background"></div>
+            <form class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                        <input
+                            class="campo__field"
+                            type="text"
+                            placeholder="Tú Nombre"
+                            id="nombre"><!--termina input-->
+                </div><!--termina div nombre-->
+                <div class="campo">
+                    <label class="campo__label" for="email">Email</label>
+                        <input
+                        class="campo__field"
+                        type="email"
+                        placeholder="Tú Email"
+                        id="email"><!--termina input-->
+                </div><!--termina div Email-->
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">Mensaje</label>
+                        <textarea
+                            class="campo__field campo__field--textarea"
+                            id="mensaje">
+                        </textarea>
+                </div><!--termina div nombre-->
+                <div class="campo">
+                    <input
+                        type="submit"
+                        value="Enviar"
+                        class="boton boton--primario"><!--termina input-->
+                </div><!--termina div nombre-->
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="contenedor">
+                    <div class="barra">
+                    <a class="logo" href="index.html">
+                        <h1 class="logo__nombre no-margin centrar-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="cursos.html" class="navegacion__enlace" >Cursos</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div><!--termina barra-->
+            </div><!--termina div contenedor-->
+        </footer>
+    </body>
+</html>
